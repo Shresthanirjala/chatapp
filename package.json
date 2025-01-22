@@ -1,11 +1,11 @@
 {
   "name": "3_chatapp",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "backend/server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
-    "start":"node backend/server.js",
-    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "type": "module",
   "keywords": [],
